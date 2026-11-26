@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Kaiã | Portfólio</title>
+  <meta name="description" content="Portfólio de Daniel Kaiã, 21 anos, de Brasília (DF). Estudante de Análise e Desenvolvimento de Sistemas com foco em Inteligência Artificial.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Karla:wght@400;500;700&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <div class="container topo__barra">
+      <a class="logo" href="index.html">DK</a>
+      <nav aria-label="Principal">
+        <ul class="menu" id="menu">
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="html/sobre.html">Sobre</a></li>
+          <li><a href="#movem">O que me move</a></li>
+          <li><a href="#desenhos">Desenhos</a></li>
+          <li><a href="#filmes">Filmes</a></li>
+          <li><a href="#livros">Livros</a></li>
+          <li><a href="#contato">Fale comigo</a></li>
+        </ul>
+      </nav>
+      <div class="acoes">
+        <button class="icone-btn" id="btn-tema" type="button" aria-label="Ativar tema escuro">☾</button>
+        <button class="icone-btn" id="btn-menu" type="button" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">≡</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="container hero" aria-labelledby="titulo-hero">
+      <div class="card hero__texto">
+        <p class="hero__local">Brasília, DF</p>
+        <h1 id="titulo-hero">Daniel Kaiã</h1>
+        <p class="hero__digita">Sou <span id="digitando">estudante de Análise e Desenvolvimento de Sistemas</span><i class="cursor" aria-hidden="true"></i></p>
+        <p>Tenho 21 anos, sou estudante de Análise e Desenvolvimento de Sistemas e tenho vontade de me especializar em Inteligência Artificial. Fique à vontade para conhecer um pouco de quem eu sou!</p>
+        <div class="botoes">
+          <a class="btn btn--laranja" href="html/sobre.html">Conhecer minha história</a>
+          <a class="btn btn--claro" href="#contato">Fale comigo</a>
+        </div>
+      </div>
+      <figure class="polaroid">
+        <img src="images/foto.jpg" alt="Foto de Daniel Kaiã" width="800" height="1000" onerror="this.onerror=null;this.src='images/foto-placeholder.svg'">
+        <figcaption>Brasília, DF</figcaption>
+        <span class="selo" aria-hidden="true"><span>21<small>anos</small></span></span>
+      </figure>
+    </section>
+
+    <section class="container secao" id="sobre" aria-labelledby="t-sobre">
+      <h2 class="adesivo" id="t-sobre">Sobre mim</h2>
+      <div class="card"><div class="card__corpo">
+        <p>Sou apaixonado pela vida. Por mais ocupado que eu seja, gosto de viver os pequenos momentos como se fossem os maiores, seja trabalhando, estudando, lendo ou curtindo a cidade.</p>
+        <p class="citacao">O que importa para mim são as histórias que acumulamos para contar.</p>
+        <div class="botoes"><a class="btn btn--claro" href="html/sobre.html">Ler mais</a></div>
+      </div></div>
+    </section>
+
+    <section class="container secao" id="movem" aria-labelledby="t-movem">
+      <h2 class="adesivo adesivo--laranja" id="t-movem">O que me move</h2>
+      <div class="grade">
+        <article class="card">
+          <div class="movem__topo" style="background:var(--amarelo)"><h3>Futuro</h3></div>
+          <div class="card__corpo"><p>Estudo para concurso público, seguindo o sonho de ter uma vida estruturada e segura, enquanto construo minha carreira em tecnologia.</p></div>
+        </article>
+        <article class="card">
+          <div class="movem__topo" style="background:var(--laranja)"><h3>Arte</h3></div>
+          <div class="card__corpo"><p>Gosto de desenhar, ler, assistir a filmes e ouvir música. Consumir todas as formas de arte é uma das melhores maneiras de entender a vida.</p>
+            <ul class="tags"><li>Desenho</li><li>Leitura</li><li>Cinema</li><li>Música</li></ul></div>
+        </article>
+        <article class="card">
+          <div class="movem__topo" style="background:var(--cobalto);color:#fff"><h3>Família</h3></div>
+          <div class="card__corpo"><p>É o meu porto seguro, onde posso acreditar e depositar esperanças de conforto, auxílio e amizade.</p></div>
+        </article>
+      </div>
+    </section>
+
+   <section class="container secao" id="desenhos" aria-labelledby="t-desenhos">
+  <h2 class="adesivo adesivo--cobalto" id="t-desenhos">Meus desenhos</h2>
+  <div class="grade galeria">
+
+    <figure class="card">
+      <img src="images/desenhos/desenho-1.jpg" alt="Desenho 1" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      <figcaption class="card__corpo">
+        <h3>Homem-Aranha</h3>
+        <p>Só rabiscando meu personagem favorito!</p>
+      </figcaption>
+    </figure>
+
+    <figure class="card">
+      <img src="images/desenhos/desenho-2.jpg" alt="Desenho 2" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      <figcaption class="card__corpo">
+        <h3>Sol e Lua</h3>
+        <p>Refiz a tatuagem da minha mãe como presente pra ela!</p>
+      </figcaption>
+    </figure>
+
+    <figure class="card">
+      <img src="images/desenhos/desenho-3.jpg" alt="Desenho 3" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      <figcaption class="card__corpo">
+        <h3>Presente para minha namorada!</h3>
+        <p>Fiz este desenho especialmente para ela. Para representar como a vejo!</p>
+      </figcaption>
+    </figure>
+
+  </div>
+</section>
+
+    <section class="container secao" id="filmes" aria-labelledby="t-filmes">
+  <h2 class="adesivo" id="t-filmes">Filmes favoritos</h2>
+  <div class="grade capa-grade">
+
+    <article class="card">
+      <img src="images/filmes/filme-1.jpg" alt="Pôster do filme 1" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      <div class="card__corpo">
+        <h3>Os bons companheiros</h3>
+        <p>Minha primeira experiência com o cinema de Scorsese, simplesmente impecável!</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="images/filmes/filme-2.jpg" alt="Pôster do filme 2" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      <div class="card__corpo">
+        <h3>Homem-Aranha 2</h3>
+        <p>O melhor filme de super-herói já feito! Uma aula de como adaptar uma história!</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="images/filmes/filme-3.jpg" alt="Pôster do filme 3" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      <div class="card__corpo">
+        <h3>Heat</h3>
+        <p>O filme de roubo mais bem feito de todos os tempos! O mais recente da lista que me impactou do início ao fim!</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+    <section class="container secao" id="livros" aria-labelledby="t-livros">
+  <h2 class="adesivo adesivo--laranja" id="t-livros">Livros favoritos</h2>
+  <div class="grade capa-grade">
+
+    <article class="card">
+      <img src="images/livros/livro-1.jpg" alt="Capa do livro 1" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      <div class="card__corpo">
+        <h3>Eu, Robô</h3>
+        <p class="autor">Isaac Asimov</p>
+        <p>Uma incrível obra de ficção científica que me fez olhar com outros olhos a inteligência artificial.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="images/livros/livro-2.jpg" alt="Capa do livro 2" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      <div class="card__corpo">
+        <h3>Blade Runner</h3>
+        <p class="autor">Philip K. Dick</p>
+        <p>Uma interessante análise da realidade e da identidade humana em um futuro distante.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="images/livros/livro-3.jpg" alt="Capa do livro 3" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      <div class="card__corpo">
+        <h3>Drácula de Bram Stoker</h3>
+        <p class="autor">Bram Stoker</p>
+        <p>Um clássico do terror que marcou minhas noites de leitura.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+    <section class="container secao" id="contato" aria-labelledby="t-contato">
+      <div class="card contato__grade">
+        <div>
+          <h2 id="t-contato">Fale comigo</h2>
+          <p>Quer trocar uma ideia sobre tecnologia, inteligência artificial, filmes ou desenho? Mande uma mensagem ou me siga nas redes.</p>
+          <div class="redes">
+          <a href="https://www.instagram.com/vulgookaia/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Daniel Kaiã">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/daniel-kai%C3%A3-ferreira-mascarenhas-106155258/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Daniel Kaiã">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://github.com/dkaiaferreira2005-dev" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Daniel Kaiã">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          </div>
+        </div>
+        <form class="form" id="form-contato" novalidate>
+          <div class="campo"><label for="nome">Nome</label><input type="text" id="nome" name="nome" autocomplete="name" required><p class="erro" aria-live="polite"></p></div>
+          <div class="campo"><label for="email">E-mail</label><input type="email" id="email" name="email" autocomplete="email" required><p class="erro" aria-live="polite"></p></div>
+          <div class="campo"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" required></textarea><p class="erro" aria-live="polite"></p></div>
+          <button class="btn btn--laranja" type="submit">Enviar mensagem</button>
+          <p class="status" id="status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>© <span id="ano">2026</span> <strong>Daniel Kaiã</strong>. Feito com HTML, CSS e JavaScript.</p>
+      <p class="rodape__nota">Projeto final da disciplina de Desenvolvimento Front-End para Web.</p>
+    </div>
+  </footer>
+</body>
+</html>
