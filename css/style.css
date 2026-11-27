@@ -145,3 +145,6 @@ body{background-color:#6F6C66;background-image:linear-gradient(var(--veu),var(--
 
 .rodape .rodape__nota{font-size:.85rem;font-weight:400;opacity:.6;margin-top:.4rem}
 .hero .polaroid figcaption{position:absolute;left:1rem;bottom:.7rem;color:#000;font-weight:700}
+
+.hero .polaroid{color-scheme:light}
+.hero .polaroid figcaption{color:#000!important;-webkit-text-fill-color:#000}
